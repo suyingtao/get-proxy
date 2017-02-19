@@ -121,7 +121,7 @@ function main(){
 	getIP181();  
 	getXici();
 }
-
+main();
 module.exports.getProxy = function () {
 	main();
 	return JSON.stringify(useful);
